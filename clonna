@@ -1,0 +1,10 @@
+def duplicar(numero):
+    return numero * 2
+
+# Lista de números a duplicar
+numeros = [3, 5, 7, 10, 15]
+
+# Usando la función duplicar y mostrando los resultados
+for num in numeros:
+    resultado = duplicar(num)
+    print(f'El doble de {num} es {resultado}')
