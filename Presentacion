@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        img {
+            width: 200px; /* Ajusta el tamaño de la imagen si lo deseas */
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 10px auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mi Perfil Personal</h1>
+    
+    <!-- Aquí es donde se agrega la imagen "jv.jpg" -->
+    <img src="jv.jpg" alt="Mi Foto" /> <!-- Asegúrate de que la imagen "jv.jpg" esté en la misma carpeta que el archivo HTML -->
+
+    <p><strong>Nombre:</strong> JOHNNY VERA</p>
+    <p><strong>Edad:</strong> 43 AÑOS</p>
+    <p><strong>Ciudad de Residencia:</strong> SHUSHUFINDI</p>
+    <p><strong>Título:</strong> INGENIERÍA EN FUNDAMENTOS DE TECNOLOGÍAS DE LA INFORMACIÓN</p>
+    
+    <h2>Pasatiempos Favoritos</h2>
+    <table>
+        <tr>
+            <th>Pasatiempo</th>
+            <th>Descripción</th>
+        </tr>
+        <tr>
+            <td>Pasar tiempo con mis hijos</td>
+            <td>Jugar, conversar, pasear</td>
+        </tr>
+        <tr>
+            <td>Trabajar</td>
+            <td>Atender mi negocio</td>
+        </tr>
+    </table>
+    
+    <h2>Deportes Favoritos</h2>
+    <table>
+        <tr>
+            <th>Deporte</th>
+            <th>Motivo</th>
+        </tr>
+        <tr>
+            <td>Boley</td>
+            <td>Hacer ejercicio</td>
+        </tr>
+        <tr>
+            <td>Correr</td>
+            <td>Para una buena salud</td>
+        </tr>
+    </table>
+    
+    <h2>Expectativa de la Profesión</h2>
+    <p>Estudiando la ingeniería de tecnología de la información, soy estudiante de la universidad (UEA). Tengo la expectativa de ser un programador profesional, me apasiona la tecnología. Desde que apareció el internet, por cuestiones "x" no pude culminar mis estudios, pero ahora estoy aprovechando mi tiempo al máximo. Es un poco tarde, pero mi objetivo está centrado en realizar mis metas.</p>
+
+</body>
+
+</html>
